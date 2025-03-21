@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   
+
+    width: auto;
+    height: auto;
+    align-content: center;
+    
+}
+
+
+p {
+    text-align: center;
+    margin: 0;
+}
+
+img {
+    width: 300px;
+    height: 250px;
+}
+
+#container button {
+    margin-top: 25px;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#reset {
+    display: block;
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+    background-color: red;
+    margin: auto;
+    position: absolute;
+    bottom: 25px;  
+    left: 50%; 
+    transform: translateX(-50%); 
+    
+}
+
+#number {
+    font-size: 90px;
+}

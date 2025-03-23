@@ -25,9 +25,13 @@ p {
     margin: 0;
 }
 
-img {
+#fireImage {
     width: 300px;
     height: 250px;
+    
+        transition: width 0.3s ease, height 0.3s ease;
+
+    
 }
 
 #container button {
